@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Lazy</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="../css/post.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,600&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <script src="../Action.js"></script>
+</head>
+
+<body>
+    <div class="wapper">
+        <header>
+            <img src="../img/logo.png" class="logo" />
+            <div class="menu">
+                <ul class='ulMenu' id='menu'>
+                    <div class='shopMenu'>
+                        <li id='menuItem'>SHOP</li>
+                        <div class="dropdown-shop-content">
+                            <a href="">T- Shirt
+                            </a>
+                            <a href="#">Polo</a>
+                            <a href="">Sweater
+                            </a>
+                            <a href="">Outer</a>
+                            <a href="">Jeans
+                            </a>
+                            <a href="">Pans/Trouser
+                            </a>
+                            <a href="">Shorts
+                            </a>
+                            <a href="">Accessories
+                            </a>
+                            <a href="">Bags
+                            </a>
+                        </div>
+                    </div>
+                    <div class="brandMenu">
+                        <li id='menuItem'>BRAND</li>
+                        <div class="dropdown-brand-content">
+                            <a href="#">DVRK.vn
+                            </a>
+                            <a href="#">Snazzy clothing</a>
+                            <a href="">Grunges studio
+
+                            </a>
+                            <a href="">SWE</a>
+                            <a href="">Reminder sg
+
+                            </a>
+                            <a href="">Bobui sg
+
+                            </a>
+                            <a href="">Gamble worldwide
+
+                            </a>
+                            <a href="">Clownz
+
+                            </a>
+                            <a href="">Dirty coint
+                            </a>
+                            <a href="">HADES</a>
+                            <a href="">HUGU official
+                            </a>
+                            <a href="">Tobi streetwear
+                            </a>
+                            <a href="">highclub
+                            </a>
+                        </div>
+
+                    </div>
+                    <a href="" class="a_menuItem">
+                        <li id='menuItem'>NEWS</li>
+                    </a>
+                    <a href="" class="a_menuItem">
+                        <li id='menuItem'>CONTACT</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="icon">
+                <div>
+                    <div class="searchMenu">
+                        <input class='SearchInput' id="input" placeholder="Tìm Kiếm">
+                        <img src="../img/Search.png" class="searchIcon" onclick="Active()" />
+                    </div>
+                </div>
+                <div class=" Profile-Menu">
+                    <a href=""><img src="../img/Profile.png" id='headerIcon'></a>
+                    <div class="dropdown-profile-content">
+                        <a href="#" onclick="ActivePopup()">Đăng Nhập</a>
+                        <a href="#" onclick="ActiveResgiterPopup()">Đăng Kí</a>
+                    </div>
+                </div>
+                <div>
+                    <div class="cartMenu">
+                        <a href=""><img src="../img/Cart.png" id='headerIcon'></a>
+                        <div class="dropdown-cart-content">
+                            <div class="cartContainer">
+                                <p class="cartProductTitle">GIỎ HÀNG</p>
+                                <div class="cartProduct">
+                                    <p style="margin-bottom: 12px; font-weight: 600;color:#4F4F4F
+                    ">SẢN PHẨM</p>
+                                    <div class="cartList">
+                                        <div class="cartListContainer">
+                                            <div class="imgCart">
+                                            </div>
+                                            <div>
+                                                <p class="nameProductCart">Dirty coint
+                                                </p>
+                                                <p class="desProductCart">DirtyCoins Retro T-Shirt
+                                                </p>
+                                                <div style="display: flex; justify-content: space-between;">
+                                                    <p class="priceProductCart">550000 VND
+                                                    </p>
+                                                    <p class="qtyProductCart">x1
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="priceQty">
+                                                550000 VND
+                                            </div>
+                                        </div>
+                                        <div class="cartListContainer">
+                                            <div class="imgCart">
+                                            </div>
+                                            <div style="width: auto;">
+                                                <p class="nameProductCart">Dirty coint
+                                                </p>
+                                                <p class="desProductCart">DirtyCoins Retro T-Shirt
+                                                </p>
+                                                <div style="display: flex; justify-content: space-between;">
+                                                    <p class="priceProductCart">550000 VND
+                                                    </p>
+                                                    <p class="qtyProductCart">x1
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="priceQty">
+                                                550000 VND
+                                            </div>
+                                        </div>
+                                        <div class="cartListContainer">
+                                            <div class="imgCart">
+                                            </div>
+                                            <div style="width: auto;">
+                                                <p class="nameProductCart">Dirty coint
+                                                </p>
+                                                <p class="desProductCart">DirtyCoins Retro T-Shirt
+                                                </p>
+                                                <div style="display: flex; justify-content: space-between;">
+                                                    <p class="priceProductCart">550000 VND
+                                                    </p>
+                                                    <p class="qtyProductCart">x1
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="priceQty">
+                                                550000 VND
+                                            </div>
+                                        </div>
+                                        <div class="cartListContainer">
+                                            <div class="imgCart">
+                                            </div>
+                                            <div style="width: auto;">
+                                                <p class="nameProductCart">Dirty coint
+                                                </p>
+                                                <p class="desProductCart">DirtyCoins Retro T-Shirt
+                                                </p>
+                                                <div style="display: flex; justify-content: space-between;">
+                                                    <p class="priceProductCart">550000 VND
+                                                    </p>
+                                                    <p class="qtyProductCart">x1
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="priceQty">
+                                                550000 VND
+                                            </div>
+                                        </div>
+                                        <div class="cartListContainer">
+                                            <div class="imgCart">
+                                            </div>
+                                            <div style="width: auto;">
+                                                <p class="nameProductCart">Dirty coint
+                                                </p>
+                                                <p class="desProductCart">DirtyCoins Retro T-Shirt
+                                                </p>
+                                                <div style="display: flex; justify-content: space-between;">
+                                                    <p class="priceProductCart">550000 VND
+                                                    </p>
+                                                    <p class="qtyProductCart">x1
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="priceQty">
+                                                550000 VND
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="qty">
+                                        <p>Tổng Tiền</p>
+                                        <p>2550000 VND
+                                        </p>
+                                    </div>
+                                    <div class="btnCart">
+                                        <button class='viewCart'>
+                                            Xem giỏ hàng
+                                        </button>
+                                        <button class='buyMore'>
+                                            Mua Thêm
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="popupLogin" id="popup">
+            <div class="popupContainer">
+                <div class="form">
+                    <h3>ĐĂNG NHẬP</h3>
+                    <div class="form__group field">
+                        <input type="input" class="form__field" placeholder="Điền địa chỉ email của bạn
+            " name="name" id='name' required />
+                        <label for="name" class="form__label">Điền địa chỉ email của bạn
+                        </label>
+                    </div>
+                    <div class="form__group field">
+                        <input type="input" class="form__field" placeholder="Mật khẩu" name="name" id='name' required />
+                        <label for="name" class="form__label">Mật khẩu</label>
+                    </div>
+                    <p>Quên mật khẩu</p>
+                    <button>
+                        Đăng nhập
+                    </button>
+                </div>
+                <div class="formRight">
+                    <h3>KHÁCH HÀNG MỚI</h3>
+                    <p>
+                        Chỉ một vài bước đơn giản đăng ký bạn sẽ nhận
+                    </p>
+                    <p> được những quyền lợi đặc biệt sau từ Lazy :</p>
+                    <li>Đặt hàng thuận tiện và nhanh chóng
+                    </li>
+                    <li>Tra cứu lịch sử mua hàng và số điểm tích lũy
+                    </li>
+                    <li> Nhận các thông tin về sản phẩm và khuyến</li>
+                    <p> mãi đặc biệt</p>
+                    <button>
+                        Đăng kí
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="ResigterPopup" id="popup2">
+            <div class="popupContainer">
+                <div class="ResigterForm">
+                    <h3>ĐĂNG KÍ</h3>
+                    <p>Vui lòng điền đầy đủ các trường thông tin ở bên dưới để tạo tài khoản mới.
+                    </p>
+                    <div class="form__group field">
+                        <input type="input" class="form__field" placeholder="Họ và tên
+            " name="name" id='name' required />
+                        <label for="name" class="form__label">Họ và tên
+                        </label>
+                    </div>
+                    <div class="form__group field">
+                        <input type="input" class="form__field" placeholder="Email
+            " name="name" id='name' required />
+                        <label for="name" class="form__label">Email
+                        </label>
+                    </div>
+                    <div class="form__group field">
+                        <input type="input" class="form__field" placeholder="Mật khẩu" name="name" id='name' required />
+                        <label for="name" class="form__label">Mật khẩu</label>
+                    </div>
+                    <div class="form__group field">
+                        <input type="input" class="form__field" placeholder="Nhắc lại mật khẩu
+            " name="name" id='name' required />
+                        <label for="name" class="form__label">Nhắc lại mật khẩu
+                        </label>
+                    </div>
+                    <button>
+                        Đăng kí
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Code -->
+    <div class="content" onclick="UnActivePopup();UnActiveResgiterPopup()">
+        <h2>BEUTER - WASHED EVERYDAY, WEAR EVERYDAY</h2>
+        <p class="content_text">Đồ mặc hàng ngày thì phải giặt hàng ngày - điều đó là một thứ hiển nhiên. Mà khi giặt
+            thì chắc chắn quần áo sẽ có độ sờn đi theo từng nước giặt. Sẽ có những sản phẩm sẽ tạo nên sự hoang mang cho
+            chúng ta khi mặc lại chúng vì độ cũ hay co rút của chúng - nhưng cũng có những sản phẩm "được chú ý" làm ra
+            để trở nên "cool" theo năm tháng. Và đó cũng là chủ đích của collection mới nhất của BEUTER - "The Washed
+            Collection".</p>
+        <!-- image -->
+        <div class="content_image">
+            <img src="../img/content1.png" alt="">
+        </div>
+        <p class="content_text">Tất nhiên, "The Washed Collection" của BEUTER không phải là khái niệm giặt mà đề bài đã
+            đề cập mà kĩ thuật "Washed" phổ biến trong thời trang và tranh ảnh. Washed hay Wash là một kĩ thuật để tạo
+            ra một lớp màu bán trong suốt (Semi-transparent). Bằng cách sử dụng mực đã pha loãng hoặc sơn màu nước để
+            tạo ra hiệu ứng này để tạo ra một cảm giác thấu thị khác lạ cho người xem. Trong thời trang thì washed được
+            bắt đầu từ nhánh denim nhưng sau này đã phát triển cho nhiều loại chất liệu và quần áo khác nhau. Tùy theo
+            brands hay designer mà họ ứng dụng cách washed để tạo ra một hiệu ứng độc đáo và mới mẻ hơn. Trên nguyên tắc
+            kĩ thuật washed được sử dụng bằng tổ hợp việc giặt, rửa bằng các chất hóa học chuyên dụng để tạo ra những
+            kết quả theo ý muốn của người làm. Nhưng để tạo ra những pattern, những textile độc đáo thì mỗi người sẽ có
+            một kĩ thuật riêng và giữ bí mật. Điều này giải nghĩa cho việc cùng là kĩ thuật washed mà thương hiệu này
+            hoàn toàn khác thương hiệu kia. Trong quy trình thì một số bước cũng có thể thay đổi để phù hợp với chất
+            liệu của sản phẩm (Cotton sẽ khác mà denim sẽ khác). Ngoài ra, kĩ thuật washed còn mang tới một lợi thế cho
+            những món đồ mặc được tạo ra với một mục đích "Overused" (Sử dụng tối đa), nghĩa là thương hiệu đã washed
+            sản phẩm và tính toán tới việc khách hàng sẽ giặt chúng sau này để món đồ đó trông sẽ "khác" sau mỗi lần
+            giặt.
+            <br>
+            Bộ sưu tập này lấy kĩ thuật Wash làm trọng điểm cùng danh sách các sản phẩm điển hình như: Tee, Hoodie,
+            Sweater và Sweat Pants. Điều này chứng minh điều gì? Product line của BEUTER là những sản phẩm mà một người
+            có thể mặc hàng ngày - mọi lúc và mọi nơi. Tham vọng của "The Washed Collection" là muốn khách hàng của mình
+            trải nghiệm của mình nhiều đến mức để họ phải đi giặt đồ của mình thường xuyên. Và khi giặt rồi - tức là
+            trải thêm 1 lần "Washed" nữa - dù nhỏ thì các sản phẩm của BEUTER sẽ thay đổi 1 lần nữa.
+        </p>
+        <div class="content_image">
+            <img src="../img/content2.png" alt="">
+        </div>
+        <p class="content_text">
+            Điều này còn được bổ trợ trong việc ứng dụng Graphics trên các sản phẩm của "The Washed collection". Ai mong
+            muốn một sự đơn giản nhưng không quá basic thì vẫn có thể có những chiếc áo Logo nhưng font đã được cường
+            điệu hóa để trông sang trọng với set đồ hàng ngày. Đó là 1 trong những tiêu chí căn bản của "Minimalism".
+            Tập trung 1 hiệu ứng để tạo ra hiệu quả tốt nhất. Bên cạnh đó, những graphics hình khác dựa trên cảm hứng từ
+            "Fine Art" - nghệ thuật thị giác dành cho mục đích thẩm mỹ với các tác phẩm nude chụp Marilyn Monroe của
+            nhiếp ảnh gia Hungari Andre de Dienes, "Eyes, Nose and Cheek" của nghệ sĩ theo trường phái siêu thực Mc
+            William và tư duy của chính BEUTER.
+        </p>
+    </div>
+    <div class="popupLogin" id="popup">
+        <div class="popupContainer">
+            <div class="form">
+                <h3>ĐĂNG NHẬP</h3>
+                <div class="form__group field">
+                    <input type="input" class="form__field" placeholder="Điền địa chỉ email của bạn
+              " name="name" id='name' required />
+                    <label for="name" class="form__label">Điền địa chỉ email của bạn
+                    </label>
+                </div>
+                <div class="form__group field">
+                    <input type="input" class="form__field" placeholder="Mật khẩu" name="name" id='name' required />
+                    <label for="name" class="form__label">Mật khẩu</label>
+                </div>
+                <p>Quên mật khẩu</p>
+                <button>
+                    Đăng nhập
+                </button>
+            </div>
+            <div class="formRight">
+                <h3>KHÁCH HÀNG MỚI</h3>
+                <p>
+                    Chỉ một vài bước đơn giản đăng ký bạn sẽ nhận
+                </p>
+                <p> được những quyền lợi đặc biệt sau từ Lazy :</p>
+                <li>Đặt hàng thuận tiện và nhanh chóng
+                </li>
+                <li>Tra cứu lịch sử mua hàng và số điểm tích lũy
+                </li>
+                <li> Nhận các thông tin về sản phẩm và khuyến</li>
+                <p> mãi đặc biệt</p>
+                <button>
+                    Đăng kí
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="ResigterPopup" id="popup2">
+        <div class="popupContainer">
+            <div class="ResigterForm">
+                <h3>ĐĂNG KÍ</h3>
+                <p>Vui lòng điền đầy đủ các trường thông tin ở bên dưới để tạo tài khoản mới.
+                </p>
+                <div class="form__group field">
+                    <input type="input" class="form__field" placeholder="Họ và tên
+              " name="name" id='name' required />
+                    <label for="name" class="form__label">Họ và tên
+                    </label>
+                </div>
+                <div class="form__group field">
+                    <input type="input" class="form__field" placeholder="Email
+              " name="name" id='name' required />
+                    <label for="name" class="form__label">Email
+                    </label>
+                </div>
+                <div class="form__group field">
+                    <input type="input" class="form__field" placeholder="Mật khẩu" name="name" id='name' required />
+                    <label for="name" class="form__label">Mật khẩu</label>
+                </div>
+                <div class="form__group field">
+                    <input type="input" class="form__field" placeholder="Nhắc lại mật khẩu
+              " name="name" id='name' required />
+                    <label for="name" class="form__label">Nhắc lại mật khẩu
+                    </label>
+                </div>
+                <button>
+                    Đăng kí
+                </button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="ft-container">
+            <div class="footer">
+                <div>
+                    <img src="../img/logo.png" alt="">
+                    <h6>ĐĂNG KÍ ĐỂ NHẬN ƯU ĐÃI</h6>
+                    <div class="ip">
+                        <input type="text" placeholder="Địa chỉ email của bạn" class='ft-input'>
+                        <button class='ft-btn'>Gửi</button>
+                    </div>
+                </div>
+                <div class="review">
+                    <a href="./introduce/gioithieu.html" class='Ft-title'> Về Chúng Tôi</a>
+                    <div>
+                        <a href="./introduce/gioithieu.html" class='rvItem'>Giới thiệu</a>
+                        <a href="./introduce/lazyvip.html" class='rvItem'>Lazy VIP club</a>
+                        <a href="./introduce/hdmuahang.html" class='rvItem'>Hướng dẫn mua hàng
+                        </a>
+                        <a href="./introduce/gioithieu.html" class='rvItem'>Chính sách bảo hành
+                        </a>
+                        <a href="./introduce/chinhsachdoitra.html" class='rvItem'>Chính sách đổi trả
+                        </a>
+                        <a href="./introduce/chinhsachbaomat.html" class='rvItem'>Chính sách bảo mật
+                        </a>
+                    </div>
+                </div>
+                <div class="contact">
+                    <p class='Ft-title'>Liên Hệ</p>
+                    <div class='ct-item'>
+                        <div style='display: flex;'>
+                            <img src="../img/Location.png" class='ft-icon'>
+                            <p class='rvItem'>100 Đông Các, Đống Đa, Hai Bà Trưng, Hà Nội
+                            </p>
+                        </div>
+                        <div style='display: flex;'>
+                            <img src="../img/Location.png" class='ft-icon'>
+                            <p class='rvItem'>367 Lê Văn Sĩ, Phường 12, Quận 3, Hồ Chí Minh
+                            </p>
+                        </div>
+                        <div style='display: flex;'>
+                            <img src="../img/Phone.png" class='ft-icon'>
+                            <p class='rvItem'>0987016177</p>
+                        </div>
+                        <div style='display: flex;'>
+                            <img src="../img/Email.png" class='ft-icon'>
+                            <p class='rvItem'>nguyentung@gmail.com
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="info">
+                    <p class='Ft-title'>FANPAGE</p>
+                    <div style='display: flex;'>
+                        <img src="../img/FB.png" alt="" class='fanpage'>
+                        <img src="../img/Ins.png" alt="" class='fanpage'>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Code -->
+</body>
+
+</html>

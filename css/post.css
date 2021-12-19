@@ -1,0 +1,32 @@
+.content{
+    margin: auto;
+    padding-top: 220px;
+    padding-bottom: 54px; 
+    width: 1156px;
+    text-align: center;
+}
+#h2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+}
+.content_text{
+    text-align: justify;
+    text-justify: inter-word;
+    padding-top: 24px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #4F4F4F;
+}
+.content_image{
+    margin: auto;
+    width: 681px;
+    padding-top: 24px;
+    overflow: hidden;
+}

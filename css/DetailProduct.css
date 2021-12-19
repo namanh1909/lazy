@@ -1,0 +1,70 @@
+.shirt {
+  height: 902px;
+  margin-top: 120px;
+}
+.detalProduct {
+  display: flex;
+  justify-content: space-around;
+}
+.infoProduct {
+  margin-right: 88px;
+  max-width: 475px;
+  float: left;
+}
+.productTitle {
+  margin-top: 200px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  color: #000000;
+}
+.productPrice {
+  font-weight: normal;
+  font-size: 32px;
+  color: #000000;
+  padding-top: 24px;
+}
+.sizeOption {
+  max-width: 290px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+.sizeOption button {
+  width: 30px;
+  height: 29px;
+  background-color: white;
+  border: 1px solid #c4c4c4;
+}
+.detail li {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #4f4f4f;
+  padding-top: 12px;
+}
+.detail {
+  padding-left: 12px;
+}
+.addCart {
+  display: flex;
+  margin-top: 18px;
+  justify-content: space-between;
+}
+.Addbtn {
+  width: 239px;
+  height: 39px;
+  border: 1px solid #000000;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: white;
+}
+.buyNowbtn {
+  width: 161px;
+  height: 39px;
+  background: #000000;
+  border: 1px solid #000000;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: bold;
+}
