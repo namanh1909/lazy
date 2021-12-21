@@ -593,3 +593,6 @@
   font-size: 16px;
   line-height: 19px;
 }
+.saleCode::placeholder {
+  padding-left: 10px;
+}

@@ -1,7 +1,3 @@
-.list-product {
-  padding-top: 277px;
-}
-
 .Title h4 {
   text-align: left;
   margin-left: 88px;
@@ -23,10 +19,7 @@
   font-size: 16px;
   color: #000000;
 }
-.product {
-  padding-top: 0px;
-  margin-top: 32px;
-}
+
 .optionBrand {
   position: relative;
   display: block;
@@ -214,4 +207,20 @@
 }
 .dropdown-product-content a:hover {
   color: #ee3d96;
+}
+.desProduct span {
+  font-size: 16px;
+  line-height: 19px;
+  color: #4f4f4f;
+}
+.nameProduct {
+  color: #000000;
+  font-weight: 600;
+  line-height: 19px;
+  padding-top: 12px;
+}
+.priceProduct {
+  font-size: 16px;
+  color: #000000;
+  padding-top: 12px;
 }

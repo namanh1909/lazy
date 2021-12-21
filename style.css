@@ -354,9 +354,6 @@ h4 {
   padding-top: 85px;
   justify-content: space-between;
 }
-.productItem {
-  margin-right: 300px;
-}
 
 .des {
   padding-top: 400px;
@@ -374,23 +371,13 @@ h5 {
 .product-name {
   font-size: 16px;
   font-weight: bold;
-  position: absolute;
 }
 .price {
   padding-top: 12px;
   margin-top: 27px;
 }
-.type {
-  position: relative;
-  background-color: black;
-  width: 96px;
-  height: 29px;
-  align-items: center;
-  text-align: center;
-  line-height: 29px;
-}
+
 .product-img {
-  position: absolute;
   width: 421px;
 }
 .typeText {
@@ -684,6 +671,7 @@ footer {
   column-gap: 20px;
   row-gap: 21px;
   max-width: 1920px;
+  grid-template-rows: none;
 }
 .wapper-pp .pp-img {
   position: relative;
@@ -742,4 +730,111 @@ footer {
 }
 .pp-img {
   margin-top: 24px;
+}
+
+/* ----cart */
+.desProduct span {
+  font-size: 16px;
+  line-height: 19px;
+  color: #4f4f4f;
+}
+.nameProduct {
+  color: #000000;
+  font-weight: 500;
+  line-height: 19px;
+  padding-top: 12px;
+}
+.priceProduct {
+  font-size: 16px;
+  color: #000000;
+  padding-top: 12px;
+}
+.flip-card {
+  background-color: transparent;
+  width: 421px;
+  height: 421px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 421px;
+  height: 421px;
+  transition: transform 0.6s;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 421px;
+  height: 421px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+.ProductList {
+  justify-content: space-between;
+  display: flex;
+  padding-top: 85px;
+  margin-left: 88px;
+  margin-right: 88px;
+}
+.productItem {
+  margin-right: 20px;
+}
+
+/* slide */
+.mySlides {
+  display: none;
+}
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+}
+
+/* Number text (1/3 etc) */
+
+/* The dots/bullets/indicators */
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: s;
+  animation-name: fade;
+  animation-duration: 0.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
