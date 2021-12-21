@@ -795,7 +795,9 @@ footer {
 .productItem {
   margin-right: 20px;
 }
-
+.ProductList > a{
+  text-decoration: none;
+}
 /* slide */
 .mySlides {
   display: none;

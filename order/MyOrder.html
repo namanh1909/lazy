@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=, initial-scale=1.0">
   <title>Lazy</title>
   <link rel="stylesheet" href="../style.css">
-  <link rel="stylesheet" href="../main2.css">
+  <link rel="stylesheet" href="../main.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -232,146 +232,101 @@
 
   <div class="container">
 
-    <div class="left-goods">
+    <div class="left-info">
 
-      <div class="delevery-left">
+      <ul>
+        <h3> Tài khoản của tôi</h3>
+        <a href="../order/Profile.html">
+          <li> Thông tin cá nhân </li>
+        </a>
+        <li class="chosen-info"> Lịch sử đơn hàng</li>
+        <li> Đăng xuất </li>
+      </ul>
 
-        <h2>THÔNG TIN GIAO HÀNG</h2>
+    </div>
+    <div class="right-info">
 
-        <div class="warp-left-body">
+      <div class="right-info-account">
 
-          <div class="delivery-info">
-            <p class="delivery-question">Bạn đã có tài khoản? <a href="#">Đăng nhập</a></p>
-            <form action="">
-
-              <div class="item">
-                <input type="text" placeholder="Họ và tên">
-              </div>
-
-              <div class="item">
-                <input type="number" placeholder="Số điện thoại">
-              </div>
-              <div class="item">
-                <input type="email" placeholder="Email">
-              </div>
-              <div class="item">
-                <input type="text" placeholder="Địa chỉ">
-              </div>
-
-              <div class="item">
-                <input type="text" placeholder="Tỉnh/Thành phố">
-              </div>
-
-              <div class="item">
-                <input type="email" placeholder="Quận/Huyện">
-              </div>
-              <div class="delivery-note">
-                <textarea placeholder="Ghi chú"></textarea>
-              </div>
-            </form>
-
-          </div>
-
-          <div class="row2 delevery-method">
-
-            <h3>Phương thức vận chuyển</h3>
-
-            <div class="body-transports">
-              <div class="😀">
-                <div>
-                  <input type="radio" name="radio" value="" id="nhanh">
-                  <label for="nhanh">Giao hàng nhanh</label>
-                </div>
-                <div class="pri">35000 VND</div>
-              </div>
-              <div class="😀">
-                <div>
-                  <input type="radio" name="radio" value="" id="cham">
-                  <label for="cham">Giao hàng tiết kiệm</label>
-                </div>
-
-                <div class="pri">35000 VND</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="row3 delevery-method">
-            <h3>Phương thức thanh toán</h3>
-            <div class="body-buy">
-              <input type="radio" name="radio" value="" id="tt">
-              <label for="tt">Thanh toán khi giao hàng (COD)</label>
-            </div>
-          </div>
+        <div class="account-header">
+          <div class="item">Nhuyễn Tùng</div>
+          <div class="item"> Sinh nhật</div>
+          <div class="item">Điện Thoại</div>
+          <div class="item">Đã chi tiêu</div>
+          <div class="item">Điểm Tích lũy</div>
+          <div class="item">Tungteo15032002@gmail.com</div>
+          <div class="item">15/03/2002</div>
+          <div class="item">0865887107</div>
+          <div class="item">2000000 VND</div>
+          <div class="item">200</div>
         </div>
 
+        <div class="account-body">
+          <h2>Đơn hàng của tôi</h2>
+          <div class="order-edit">
 
+            <div class="item-headers">
+              <div class="item-header">Mã đơn hàng</div>
+              <div class="item-header">Ngày mua</div>
+              <div class="item-header" style="justify-content: start;">Sản phẩm</div>
+              <div class="item-header">Tổng tiền</div>
+              <div class="item-header">Trạng thái</div>
+            </div>
+
+            <a href="../order/InfoCart.html">
+              <div class="item-bodys">
+                <div class="item-body">F12A797</div>
+                <div class="item-body">21/10/2020</div>
+                <div class="item-body-img">
+                  <img class="img" src="../img/1.png" alt="">
+                  <div class="img-info">
+                    <div class="img-info-header">
+                      Dirty coint
+                    </div>
+                    <div class="img-info-name">
+                      DirtyCoins Retro T-Shirt
+                    </div>
+                    <div class="img-info-pri">
+                      <div class="pri">550000 VND</div>
+                      <div class="sl">x1</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-body text-bold">1100000 VND</div>
+                <div class="item-body text-bold">Thành công</div>
+              </div>
+            </a>
+            <a href="../order/InfoCart.html">
+              <div class="item-bodys">
+              
+                <div class="item-body">F12A797</div>
+                <div class="item-body">21/10/2020</div>
+                <div class="item-body-img">
+                  <img class="img" src="../img/1.png" alt="">
+                  <div class="img-info">
+                    <div class="img-info-header">
+                      Dirty coint
+                    </div>
+                    <div class="img-info-name">
+                      DirtyCoins Retro T-Shirt
+                    </div>
+                    <div class="img-info-pri">
+                      <div class="pri">550000 VND</div>
+                      <div class="sl">x1</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-body text-bold">1100000 VND</div>
+                <div class="item-body text-bold">Thành công</div>
+              
+              </div>
+            </a>
+
+          </div>
+        </div>
       </div>
 
     </div>
-
-    <div class="right-goods">
-
-      <div class="good">
-
-        <h2>Đơn Hàng</h2>
-
-        <div class="row1">
-          <div class="content">
-            <img src="../img/1.png" alt="">
-            <div>
-              <div class="name">
-                DIRTY COINT
-              </div>
-              <div class="sub">
-                Dirtycoints Retro T-Shiirt
-              </div>
-            </div>
-          </div>
-          <div class="pri">
-            450000 VND
-          </div>
-        </div>
-
-        <form action="">
-
-          <input type="text" name="" id="" placeholder="Mã Giảm Giá" class='saleCode'>
-          <button>Áp dụng</button>
-
-        </form>
-
-        <div class="row2">
-
-          <div class="items">
-            <div class="item">Tạm tính</div>
-            <div class="item">450000 VND</div>
-          </div>
-
-          <div class="items">
-            <div class="item">Phí vận chuyển</div>
-            <div class="item">0 VND</div>
-          </div>
-        </div>
-
-        <div class="row3">
-          <div class="items">
-            <div class="item">Tổng tiền</div>
-            <div class="item">450000 VND</div>
-          </div>
-
-        </div>
-        <div class="done">
-          <a href="#">
-            < Giỏ hàng</a>
-            
-            <a href=""><button>Hoàn tất đặt hàng</button></a>
-        </div>
-      </div>
-
-
-    </div>
-
-
-
 
   </div>
   <footer>

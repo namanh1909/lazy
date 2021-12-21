@@ -1,3 +1,6 @@
+*{
+  text-decoration: none;
+}
 .container {
   width: 100%;
   display: flex;
@@ -23,6 +26,7 @@
   margin-bottom: 20px;
 }
 .left-info ul li {
+  color: #4F4F4F;
   position: relative;
   font-size: 16px;
   font-weight: normal;
@@ -30,7 +34,16 @@
   margin-top: 11px;
 }
 .chosen-info {
+  color: #000000;
   left: 11px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+
 }
 
 .right-info {
@@ -145,20 +158,41 @@
   display: flex;
   justify-content: center;
 }
-.account-body > .order-edit > .item-bodys {
+.account-body > .order-edit .item-bodys {
   margin-top: 16px;
   display: grid;
   grid-template-columns: 1fr 1fr 3fr 1fr 1fr;
   height: 93px;
 }
-.account-body > .order-edit > .item-bodys:hover {
+.account-body > .order-edit .item-bodys:hover {
   background: #e5e5e5;
 }
-.account-body > .order-edit > .item-bodys > .item-body {
+.text-bold {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+.account-body > .order-edit .item-bodys > .item-body {
   display: flex;
   justify-content: center;
 }
+.account-body > .order-edit a{
+  text-decoration: none;
+  color: #000000;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
 
+}
 .item-body-img {
   display: flex;
   align-items: center;

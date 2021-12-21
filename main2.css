@@ -447,7 +447,7 @@
     line-height: 19px;
     color: #000000;
   }
-  .right-goods > .good > .done > button{
+  .right-goods > .good > .done > a > button{
     border: none;
     background-color: #000000;
     color: #ffffff;
