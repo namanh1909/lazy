@@ -409,7 +409,7 @@
     height: 100px;
   }
   .delivery-info > form > .delivery-note > textarea{
-    border: 1px solid #000000;
+    border: 1px solid #c4c4c4;
     font-size: 16px;
     resize: none;
     width: 100%;
@@ -437,6 +437,10 @@
     padding-top: 80px;
     display: flex;
     justify-content: space-between;
+  }
+  .right-goods > .good > .bill{
+    border: 1px solid #c4c4c4;
+    padding: 15px;
   }
   .right-goods > .good > .done > a{
     text-decoration: none;
