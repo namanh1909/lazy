@@ -1,4 +1,4 @@
-*{
+* {
   text-decoration: none;
 }
 .container {
@@ -26,7 +26,7 @@
   margin-bottom: 20px;
 }
 .left-info ul li {
-  color: #4F4F4F;
+  color: #4f4f4f;
   position: relative;
   font-size: 16px;
   font-weight: normal;
@@ -43,7 +43,6 @@
   line-height: 19px;
   letter-spacing: 0em;
   text-align: left;
-
 }
 
 .right-info {
@@ -175,13 +174,12 @@
   line-height: 19px;
   letter-spacing: 0em;
   text-align: left;
-
 }
 .account-body > .order-edit .item-bodys > .item-body {
   display: flex;
   justify-content: center;
 }
-.account-body > .order-edit a{
+.account-body > .order-edit a {
   text-decoration: none;
   color: #000000;
   font-family: Roboto;
@@ -191,7 +189,6 @@
   line-height: 19px;
   letter-spacing: 0em;
   text-align: left;
-
 }
 .item-body-img {
   display: flex;
@@ -206,11 +203,14 @@
   width: 80px;
   height: 80px;
 }
+.img-info {
+}
 .img-info .img-info-header {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
+  padding-bottom: 12px;
 }
 .img-info .img-info-name {
   font-style: normal;
@@ -218,6 +218,7 @@
   font-size: 16px;
   line-height: 19px;
   color: #4f4f4f;
+  padding-bottom: 12px;
 }
 .img-info .img-info-pri {
   display: flex;
@@ -296,6 +297,10 @@
   height: 400px;
   margin-right: 239px;
   margin-top: 120px;
+  border: 1px solid #c4c4c4;
+}
+.good {
+  padding: 12px;
 }
 
 .right-goods .good h2 {
@@ -334,6 +339,7 @@
   height: 39px;
   outline: none;
   color: #000000;
+  padding-left: 12px;
 }
 .right-goods .good form > input::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -629,4 +635,11 @@
 }
 .saleCode::placeholder {
   padding-left: 10px;
+}
+.saleInput:placeholder {
+  padding-left: 12px;
+}
+.cartInfo p {
+  font-weight: 500;
+  font-size: 16px;
 }

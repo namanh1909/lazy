@@ -6,7 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=, initial-scale=1.0">
   <title>Lazy</title>
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../main.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,20 +15,20 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,600&family=Roboto:wght@300;400;500;700&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="./css/DetailProduct.css">
 
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
   <div class="wapper">
     <header>
-      <a href="index.html"><img src="./img/logo.png" class="logo" /></a>
+      <img src="../img/logo.png" class="logo" />
       <div class="menu">
         <ul class='ulMenu' id='menu'>
           <div class='shopMenu'>
             <li id='menuItem'>SHOP</li>
             <div class="dropdown-shop-content">
-              <a href="./T- SHIRTS.html">T- Shirt
+              <a href="#">T- Shirt
               </a>
               <a href="#">Polo</a>
               <a href="">Sweater
@@ -91,11 +92,11 @@
         <div>
           <div class="searchMenu">
             <input class='SearchInput' id="input" placeholder="Tìm Kiếm">
-            <img src="./img/Search.png" class="searchIcon" onclick="Active()" />
+            <img src="../img/Search.png" class="searchIcon" onclick="Active()" />
           </div>
         </div>
         <div class=" Profile-Menu">
-          <a href=""><img src="./img/Profile.png" id='headerIcon'></a>
+          <a href=""><img src="../img/Profile.png" id='headerIcon'></a>
           <div class="dropdown-profile-content">
             <a href="#" onclick="ActivePopup()">Đăng Nhập</a>
             <a href="#" onclick="ActiveResgiterPopup()">Đăng Kí</a>
@@ -103,7 +104,7 @@
         </div>
         <div>
           <div class="cartMenu">
-            <a href=""><img src="./img/Cart.png" id='headerIcon'></a>
+            <a href=""><img src="../img/Cart.png" id='headerIcon'></a>
             <div class="dropdown-cart-content">
               <div class="cartContainer">
                 <p class="cartProductTitle">GIỎ HÀNG</p>
@@ -228,129 +229,105 @@
         </div>
       </div>
     </header>
-    <div class="detalProduct" onclick="UnActivePopup(),UnActiveResgiterPopup()">
-      <img src="./img/Shirt.png" alt="" class='shirt'>
-      <div class="infoProduct">
-        <p class='productTitle'>DirtyCoins Retro T-Shirt</p>
-        <p class="productPrice">450000 VND</p>
-        <p style="font-weight: 500;font-size: 16px;padding-top: 50px;">Size</p>
-        <div class="sizeOption">
-          <button>XS</button>
-          <button>S</button>
-          <button>M</button>
-          <button>L</button>
-          <button>XL</button>
-        </div>
-        <p style="font-weight: 500;
-        font-size: 16px; padding-top: 48px;">Chi tiết sản phẩm</p>
-        <ul class="detail">
-          <li>100% cotton
-          </li>
-          <li>Regular fits
-          </li>
-          <li>Logo Dirty coint ở thân dưới
-          </li>
-        </ul>
-        <p style="font-weight: 500;
-        font-size: 16px; padding-top: 48px; padding-bottom: 12px;">Hướng dẫn chọn size</p>
-        <img src="./img/size.png" alt="">
-        <div class="addCart">
-          <a href=""><button class='Addbtn'>Thêm vào giỏ hàng</button></a>
-          <a href="./order/Payment.html"><button class='buyNowbtn'>Mua Ngay</button></a>
-        </div>
-      </div>
-    </div>
-    <div class="Title">
-      <h4>Sản Phẩm Liên Quan</h4>
-      <p class="loadMore">Xem thêm</p>
-    </div>
-    <div class="listProduct">
-      <div class="ProductList">
-        <a href="Product.html">
-          <div class="productItem">
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <img src="./img/Product.png" alt="">
-                </div>
-                <div class="flip-card-back">
-                  <img src="./img/Product.png" alt="">
-                </div>
-              </div>
-            </div>
-            <div class="desProduct">
-              <span>DIRTY COINT</span>
-              <p class='nameProduct'>DirtyCoins Fukyba Tiedye T-Shirt - Green</p>
-              <p class="priceProduct">450.000 VND</p>
-            </div>
-          </div>
-        </a>
-        <a href="Product.html">
-          <div class="productItem">
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <img src="./img/Product.png" alt="">
-                </div>
-                <div class="flip-card-back">
-                  <img src="./img/Product.png" alt="">
-                </div>
-              </div>
-            </div>
-            <div class="desProduct">
-              <span>DIRTY COINT</span>
-              <p class='nameProduct'>DirtyCoins Fukyba Tiedye T-Shirt - Green</p>
-              <p class="priceProduct">450.000 VND</p>
-            </div>
-          </div>
-        </a>
-        <a href="Product.html">
-          <div class="productItem">
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <img src="./img/Product.png" alt="">
-                </div>
-                <div class="flip-card-back">
-                  <img src="./img/Product.png" alt="">
-                </div>
-              </div>
-            </div>
-            <div class="desProduct">
-              <span>DIRTY COINT</span>
-              <p class='nameProduct'>DirtyCoins Fukyba Tiedye T-Shirt - Green</p>
-              <p class="priceProduct">450.000 VND</p>
-            </div>
-          </div>
-        </a>
-        <a href="Product.html">
-          <div class="productItem">
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <img src="./img/Product.png" alt="">
-                </div>
-                <div class="flip-card-back">
-                  <img src="./img/Product.png" alt="">
-                </div>
-              </div>
-            </div>
-            <div class="desProduct">
-              <span>DIRTY COINT</span>
-              <p class='nameProduct'>DirtyCoins Fukyba Tiedye T-Shirt - Green</p>
-              <p class="priceProduct">450.000 VND</p>
-            </div>
-          </div>
-        </a>
-      </div>
-    </div>
   </div>
 
+  <div class="ViewCart"
+    style="display: flex; justify-content: space-between;margin-left: 220px;margin-right: 280px; margin-bottom: 200px;margin-top: 220px;">
+    <div>
+      <p style="font-size: 32px;font-weight: 500;">GIỎ HÀNG</p>
+      <div style="width: 882px; height: 380px;">
+        <div class="cartInfo" style="display: flex; margin-top: 32px;">
+          <p>Sản phẩm</p>
+          <p style="padding-left: 440px;">Số Lượng</p>
+          <p style="padding-left: 92px;">Tổng tiền</p>
+          <p style="padding-left: 92px;">Xóa</p>
+        </div>
+        <hr style="margin-top: 15px; border: 1px solid #C4C4C4;
+        " />
+        <div style="margin-top: 12px; display: flex;">
+          <img src="../img/1.png" alt="" widt="80px" height="80px">
+          <div style="display: flex; justify-content: space-around; flex-direction: column; margin-left: 32px">
+            <p style="font-size: 16px;color: #000000;            ">DIRTY COINT
+            </p>
+            <p style="padding-bottom: 10px;">Dirtycoints Retro T-Shiirt
+            </p>
+          </div>
+          <p style="padding-top: 22px;padding-left: 67px;">450000 VND
+          </p>
+          <div
+            style="width: 100px;
+          height: 39px;border: 1px solid #C4C4C4; display: flex; justify-content: space-between; padding:5px 9px; margin-left: 65px;margin-top: 10px;">
+            <span style="font-size: 24px;line-height: 28px; color: #000000; font-weight: bold;">-</span>
+            <span style="font-size: 24px;line-height: 28px; color: #000000; font-weight: bold;">1</span>
+            <span style="font-size: 24px;line-height: 28px; color: #000000; font-weight: bold;">+</span>
+          </div>
+          <p style="padding-left: 56px;padding-top: 22px;">450000 VND
+          </p>
+          <img src="../img/Trash.png" alt="" height="24px" style="padding-left: 72px; margin-top: 20px;">
+        </div>
+        <div style="margin-top: 12px; display: flex;">
+          <img src="../img/2.png" alt="" widt="80px" height="80px">
+          <div style="display: flex; justify-content: space-around; flex-direction: column; margin-left: 32px">
+            <p>DIRTY COINT
+            </p>
+            <p style="padding-bottom: 10px; ">Dirtycoints Retro T-Shiirt
+            </p>
+          </div>
+          <p style=" padding-top: 22px;padding-left: 67px;">450000 VND
+          </p>
+          <div
+            style="width: 100px;
+          height: 39px;border: 1px solid #C4C4C4; display: flex; justify-content: space-between; padding:5px 9px; margin-left: 65px;margin-top: 10px;">
+            <span style="font-size: 24px;line-height: 28px; color: #000000; font-weight: bold;">-</span>
+            <span style="font-size: 24px;line-height: 28px; color: #000000; font-weight: bold;">1</span>
+            <span style="font-size: 24px;line-height: 28px; color: #000000; font-weight: bold;">+</span>
+          </div>
+          <p style="padding-left: 56px;padding-top: 22px;">450000 VND
+          </p>
+          <img src="../img/Trash.png" alt="" height="24px" style="padding-left: 72px; margin-top: 20px;">
+        </div>
+        <button style="padding: 10px 40px;width: 235px;
+        height: 39px;border: 1px solid #000000;
+        font-weight: 500;
+font-size: 15px;color: #000000;  background-color: white;   margin-top: 57px;   ">TIẾP TỤC MUA HÀNG</button>
+      </div>
+
+    </div>
+    <div class=" paymentCart" style="width: 376px; float: left;">
+      <p style="font-size: 32px;font-weight: 500;">ĐƠN HÀNG</p>
+      <div style="display: flex; justify-content: space-between; padding-top: 32px;">
+        <p style="font-weight: 500;
+        font-size: 16px;">Tạm Tính</p>
+        <p style=" font-weight: 500; font-size: 16px;">900000 VND
+        </p>
+      </div>
+      <hr style="margin-top: 10px; width: 376px">
+      <div style="display: flex; justify-content: space-between; padding-top: 32px;">
+        <p style="font-weight: 500;
+        font-size: 16px;">Tổng Tiền</p>
+        <p style=" font-weight: 500; font-size: 16px;">900000 VND
+        </p>
+      </div>
+      <hr style="margin-top: 10px; width: 376px">
+
+      <button style="width: 161px;
+      height: 39px;background: #000000;
+border: 1px solid #000000;font-size: 16px;
+
+color: #FFFFFF; margin-top: 65px; font-weight: bold;">MUA NGAY
+      </button>
+
+    </div>
+
+  </div>
+
+
+  </div>
   <footer>
     <div class="ft-container">
       <div class="footer">
         <div>
-          <img src="./img/logo.png" alt="">
+          <img src="../img/logo.png" alt="">
           <h6>ĐĂNG KÍ ĐỂ NHẬN ƯU ĐÃI</h6>
           <div class="ip">
             <input type="text" placeholder="Địa chỉ email của bạn" class='ft-input'>
@@ -358,17 +335,17 @@
           </div>
         </div>
         <div class="review">
-          <a href="./Review/t1.html" class='Ft-title'> Về Chúng Tôi</a>
+          <a href="../introduce/gioithieu.html" class='Ft-title'> Về Chúng Tôi</a>
           <div>
-            <a href="./Review/t1.html" class='rvItem'>Giới thiệu</a>
-            <a href="./Review/t2.html" class='rvItem'>Lazy VIP club</a>
-            <a href="./Review/t3.html" class='rvItem'>Hướng dẫn mua hàng
+            <a href="../introduce/gioithieu.html" class='rvItem'>Giới thiệu</a>
+            <a href="../introduce/lazyvip.html" class='rvItem'>Lazy VIP club</a>
+            <a href="../introduce/hdmuahang.html" class='rvItem'>Hướng dẫn mua hàng
             </a>
-            <a href="./Review/t4.html" class='rvItem'>Chính sách bảo hành
+            <a href="../introduce/gioithieu.html" class='rvItem'>Chính sách bảo hành
             </a>
-            <a href="./Review/t5.html" class='rvItem'>Chính sách đổi trả
+            <a href="../introduce/chinhsachdoitra.html" class='rvItem'>Chính sách đổi trả
             </a>
-            <a href="./Review/t6.html" class='rvItem'>Chính sách bảo mật
+            <a href="../introduce/chinhsachbaomat.html" class='rvItem'>Chính sách bảo mật
             </a>
           </div>
         </div>
@@ -376,21 +353,21 @@
           <p class='Ft-title'>Liên Hệ</p>
           <div class='ct-item'>
             <div style='display: flex;'>
-              <img src="./img/Location.png" class='ft-icon'>
+              <img src="../img/Location.png" class='ft-icon'>
               <p class='rvItem'>100 Đông Các, Đống Đa, Hai Bà Trưng, Hà Nội
               </p>
             </div>
             <div style='display: flex;'>
-              <img src="./img/Location.png" class='ft-icon'>
+              <img src="../img/Location.png" class='ft-icon'>
               <p class='rvItem'>367 Lê Văn Sĩ, Phường 12, Quận 3, Hồ Chí Minh
               </p>
             </div>
             <div style='display: flex;'>
-              <img src="./img/Phone.png" class='ft-icon'>
+              <img src="../img/Phone.png" class='ft-icon'>
               <p class='rvItem'>0987016177</p>
             </div>
             <div style='display: flex;'>
-              <img src="./img/Email.png" class='ft-icon'>
+              <img src="../img/Email.png" class='ft-icon'>
               <p class='rvItem'>nguyentung@gmail.com
               </p>
             </div>
@@ -399,85 +376,13 @@
         <div class="info">
           <p class='Ft-title'>FANPAGE</p>
           <div style='display: flex;'>
-            <img src="./img/FB.png" alt="" class='fanpage'>
-            <img src="./img/Ins.png" alt="" class='fanpage'>
+            <img src="../img/FB.png" alt="" class='fanpage'>
+            <img src="../img/Ins.png" alt="" class='fanpage'>
           </div>
         </div>
       </div>
     </div>
   </footer>
-  <div class="popupLogin" id="popup">
-    <div class="popupContainer">
-      <div class="form">
-        <h3>ĐĂNG NHẬP</h3>
-        <div class="form__group field">
-          <input type="input" class="form__field" placeholder="Điền địa chỉ email của bạn
-          " name="name" id='name' required />
-          <label for="name" class="form__label">Điền địa chỉ email của bạn
-          </label>
-        </div>
-        <div class="form__group field">
-          <input type="input" class="form__field" placeholder="Mật khẩu" name="name" id='name' required />
-          <label for="name" class="form__label">Mật khẩu</label>
-        </div>
-        <p>Quên mật khẩu</p>
-        <button>
-          Đăng nhập
-        </button>
-      </div>
-      <div class="formRight">
-        <h3>KHÁCH HÀNG MỚI</h3>
-        <p>
-          Chỉ một vài bước đơn giản đăng ký bạn sẽ nhận
-        </p>
-        <p> được những quyền lợi đặc biệt sau từ Lazy :</p>
-        <li>Đặt hàng thuận tiện và nhanh chóng
-        </li>
-        <li>Tra cứu lịch sử mua hàng và số điểm tích lũy
-        </li>
-        <li> Nhận các thông tin về sản phẩm và khuyến</li>
-        <p> mãi đặc biệt</p>
-        <button>
-          Đăng kí
-        </button>
-      </div>
-    </div>
-  </div>
-  <div class="ResigterPopup" id="popup2">
-    <div class="popupContainer">
-      <div class="ResigterForm">
-        <h3>ĐĂNG KÍ</h3>
-        <p>Vui lòng điền đầy đủ các trường thông tin ở bên dưới để tạo tài khoản mới.
-        </p>
-        <div class="form__group field">
-          <input type="input" class="form__field" placeholder="Họ và tên
-          " name="name" id='name' required />
-          <label for="name" class="form__label">Họ và tên
-          </label>
-        </div>
-        <div class="form__group field">
-          <input type="input" class="form__field" placeholder="Email
-          " name="name" id='name' required />
-          <label for="name" class="form__label">Email
-          </label>
-        </div>
-        <div class="form__group field">
-          <input type="input" class="form__field" placeholder="Mật khẩu" name="name" id='name' required />
-          <label for="name" class="form__label">Mật khẩu</label>
-        </div>
-        <div class="form__group field">
-          <input type="input" class="form__field" placeholder="Nhắc lại mật khẩu
-          " name="name" id='name' required />
-          <label for="name" class="form__label">Nhắc lại mật khẩu
-          </label>
-        </div>
-        <button>
-          Đăng kí
-        </button>
-      </div>
-    </div>
-  </div>
-  </div>
 </body>
 
 </html>
