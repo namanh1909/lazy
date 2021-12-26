@@ -21,13 +21,13 @@
 <body>
   <div class="wapper">
     <header>
-      <img src="../img/logo.png" class="logo" />
+      <a href="../index.html"><img src="../img/logo.png" class="logo" /></a>
       <div class="menu">
         <ul class='ulMenu' id='menu'>
           <div class='shopMenu'>
             <li id='menuItem'>SHOP</li>
             <div class="dropdown-shop-content">
-              <a href="#">T- Shirt
+              <a href="../T- SHIRTS.html">T- Shirt
               </a>
               <a href="#">Polo</a>
               <a href="">Sweater
@@ -79,7 +79,7 @@
             </div>
 
           </div>
-          <a href="" class="a_menuItem">
+          <a href="../order/Newss.html" class="a_menuItem">
             <li id='menuItem'>NEWS</li>
           </a>
           <a href="" class="a_menuItem">
@@ -103,7 +103,7 @@
         </div>
         <div>
           <div class="cartMenu">
-            <a href=""><img src="../img/Cart.png" id='headerIcon'></a>
+            <a href="./order/Cart.html"><img src="../img/Cart.png" id='headerIcon'></a>
             <div class="dropdown-cart-content">
               <div class="cartContainer">
                 <p class="cartProductTitle">GIỎ HÀNG</p>
@@ -213,16 +213,19 @@
                     </p>
                   </div>
                   <div class="btnCart">
-                    <button class='viewCart'>
-                      Xem giỏ hàng
-                    </button>
-                    <button class='buyMore'>
-                      Mua Thêm
-                    </button>
+                    <a href="../order/Cart.html">
+                      <button class='viewCart'>
+                        Xem giỏ hàng
+                      </button></a>
+                    <a href="../index.html">
+                      <button class='buyMore'>
+                        Mua Thêm
+                      </button>
+                    </a>
+
                   </div>
                 </div>
               </div>
-
             </div>
           </div>
         </div>
@@ -230,19 +233,19 @@
     </header>
   </div>
 
-  <div class="container">
+  <div class="container" onclick="UnActivePopup();UnActiveResgiterPopup()">
 
     <div class="left-info">
 
       <ul>
         <h3> Tài khoản của tôi</h3>
         <a href="../order/Profile.html">
-          <li class="chosen-info"> Thông tin cá nhân </li>
+          <li class="chosen-info" style="color:black;font-weight: 400;"> Thông tin cá nhân </li>
         </a>
         <a href="../order/MyOrder.html">
-          <li> Lịch sử đơn hàng</li>
+          <li style="color: #4F4F4F"> Lịch sử đơn hàng</li>
         </a>
-        <li> Đăng xuất </li>
+        <li style="color: #4F4F4F"> Đăng xuất </li>
       </ul>
 
     </div>
@@ -262,9 +265,8 @@
           <div class="item">2000000 VND</div>
           <div class="item">200</div>
         </div>
-
         <div class="account-body">
-          <h2>Thông tin cá nhân</h2>
+          <h2 style="text-transform: uppercase;">Thông tin cá nhân</h2>
           <div class="account-edit">
 
             <form action="">
@@ -320,6 +322,81 @@
 
     </div>
 
+  </div>
+  <div class="popupLogin" id="popup">
+    <div class="popupContainer">
+      <div class="form">
+        <h3>ĐĂNG NHẬP</h3>
+        <div class="form__group field">
+          <input type="input" class="form__field" placeholder="Điền địa chỉ email của bạn
+        " name="name" id='name' required />
+          <label for="name" class="form__label">Điền địa chỉ email của bạn
+          </label>
+        </div>
+        <div class="form__group field">
+          <input type="input" class="form__field" placeholder="Mật khẩu" name="name" id='name' required />
+          <label for="name" class="form__label">Mật khẩu</label>
+        </div>
+        <p>Quên mật khẩu</p>
+        <a href="../order/Profile.html">
+          <button>
+            Đăng nhập
+          </button>
+        </a>
+      </div>
+      <div class="formRight">
+        <h3>KHÁCH HÀNG MỚI</h3>
+        <p>
+          Chỉ một vài bước đơn giản đăng ký bạn sẽ nhận
+        </p>
+        <p> được những quyền lợi đặc biệt sau từ Lazy :</p>
+        <li>Đặt hàng thuận tiện và nhanh chóng
+        </li>
+        <li>Tra cứu lịch sử mua hàng và số điểm tích lũy
+        </li>
+        <li> Nhận các thông tin về sản phẩm và khuyến</li>
+        <p> mãi đặc biệt</p>
+        <a href="./order/Profile.html">
+          <button>
+            Đăng kí
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="ResigterPopup" id="popup2">
+    <div class="popupContainer">
+      <div class="ResigterForm">
+        <h3>ĐĂNG KÍ</h3>
+        <p>Vui lòng điền đầy đủ các trường thông tin ở bên dưới để tạo tài khoản mới.
+        </p>
+        <div class="form__group field">
+          <input type="input" class="form__field" placeholder="Họ và tên
+        " name="name" id='name' required />
+          <label for="name" class="form__label">Họ và tên
+          </label>
+        </div>
+        <div class="form__group field">
+          <input type="input" class="form__field" placeholder="Email
+        " name="name" id='name' required />
+          <label for="name" class="form__label">Email
+          </label>
+        </div>
+        <div class="form__group field">
+          <input type="input" class="form__field" placeholder="Mật khẩu" name="name" id='name' required />
+          <label for="name" class="form__label">Mật khẩu</label>
+        </div>
+        <div class="form__group field">
+          <input type="input" class="form__field" placeholder="Nhắc lại mật khẩu
+        " name="name" id='name' required />
+          <label for="name" class="form__label">Nhắc lại mật khẩu
+          </label>
+        </div>
+        <a href="./order/Profile.html"> <button>
+            Đăng kí
+          </button></a>
+      </div>
+    </div>
   </div>
   <footer>
     <div class="ft-container">

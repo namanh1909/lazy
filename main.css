@@ -26,23 +26,18 @@
   margin-bottom: 20px;
 }
 .left-info ul li {
-  color: #4f4f4f;
-  position: relative;
   font-size: 16px;
-  font-weight: normal;
   line-height: 19px;
   margin-top: 11px;
 }
 .chosen-info {
-  color: #000000;
-  left: 11px;
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 19px;
-  letter-spacing: 0em;
   text-align: left;
+  color: black;
+  color: #4f4f4f;
+  padding-left: 10px;
 }
 
 .right-info {
@@ -642,4 +637,8 @@
 .cartInfo p {
   font-weight: 500;
   font-size: 16px;
+}
+#infoProfile {
+  font-weight: 700;
+  color: black;
 }

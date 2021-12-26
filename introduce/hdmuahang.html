@@ -20,13 +20,13 @@
 <body>
     <div class="wapper">
         <header>
-            <img src="../img/logo.png" class="logo" />
+            <a href="../index.html"><img src="../img/logo.png" class="logo" /></a>
             <div class="menu">
                 <ul class='ulMenu' id='menu'>
                     <div class='shopMenu'>
                         <li id='menuItem'>SHOP</li>
                         <div class="dropdown-shop-content">
-                            <a href="#">T- Shirt
+                            <a href="../T- SHIRTS.html">T- Shirt
                             </a>
                             <a href="#">Polo</a>
                             <a href="">Sweater
@@ -78,7 +78,7 @@
                         </div>
 
                     </div>
-                    <a href="" class="a_menuItem">
+                    <a href="../order/Newss.html" class="a_menuItem">
                         <li id='menuItem'>NEWS</li>
                     </a>
                     <a href="" class="a_menuItem">
@@ -102,13 +102,13 @@
                 </div>
                 <div>
                     <div class="cartMenu">
-                        <a href=""><img src="../img/Cart.png" id='headerIcon'></a>
+                        <a href="./order/Cart.html"><img src="../img/Cart.png" id='headerIcon'></a>
                         <div class="dropdown-cart-content">
                             <div class="cartContainer">
                                 <p class="cartProductTitle">GIỎ HÀNG</p>
                                 <div class="cartProduct">
                                     <p style="margin-bottom: 12px; font-weight: 600;color:#4F4F4F
-                    ">SẢN PHẨM</p>
+                        ">SẢN PHẨM</p>
                                     <div class="cartList">
                                         <div class="cartListContainer">
                                             <div class="imgCart">
@@ -212,16 +212,19 @@
                                         </p>
                                     </div>
                                     <div class="btnCart">
-                                        <button class='viewCart'>
-                                            Xem giỏ hàng
-                                        </button>
-                                        <button class='buyMore'>
-                                            Mua Thêm
-                                        </button>
+                                        <a href="../order/Cart.html">
+                                            <button class='viewCart'>
+                                                Xem giỏ hàng
+                                            </button></a>
+                                        <a href="../index.html">
+                                            <button class='buyMore'>
+                                                Mua Thêm
+                                            </button>
+                                        </a>
+
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
@@ -300,14 +303,14 @@
         </div>
     </div>
     <!-- Code -->
-    <div class="content_about">
+    <div class="content_about" onclick="UnActivePopup();UnActiveResgiterPopup()">
         <div class="linkpage">
             <p class="link_about">VỀ CHÚNG TÔI</p><br>
             <ul>
-                <li ><a href="../introduce/gioithieu.html">Giới thiệu</a></li>
+                <li><a href="../introduce/gioithieu.html">Giới thiệu</a></li>
                 <li><a href="../introduce/lazyvip.html">Lazy VIP club</a></li>
-                <li ><a class="link_current" href="#">Hướng dẫn mua hàng</a></li>
-                <li ><a href="../introduce/chinhsachbaohanh.html">Chính sách bảo hành</a></li>
+                <li><a class="link_current" href="#">Hướng dẫn mua hàng</a></li>
+                <li><a href="../introduce/chinhsachbaohanh.html">Chính sách bảo hành</a></li>
                 <li><a href="../introduce/chinhsachdoitra.html">Chính sách đổi trả</a></li>
                 <li><a href="../introduce/chinhsachbaomat.html">Chính sách bảo mật</a></li>
             </ul>
@@ -316,10 +319,12 @@
             <h2>HƯỚNG DẪN MUA HÀNG</h2>
             <h3>BƯỚC 1: TÌM KIẾM VÀ LỰA CHỌN SẢN PHẨM TẠI WEBSITE</h3>
             <ul>
-                <li>Tìm kiếm các sản phẩm muốn mua thông qua các tab danh mục sản phẩm của Lazy hoặc gõ trực tiếp tên sản phẩm vào thanh tìm kiếm Search
+                <li>Tìm kiếm các sản phẩm muốn mua thông qua các tab danh mục sản phẩm của Lazy hoặc gõ trực tiếp tên
+                    sản phẩm vào thanh tìm kiếm Search
                 </li>
                 <li>
-                    Lựa chọn màu sắc, size phù hợp (tham khảo bản Hướng dẫn chọn kích cỡ), đọc các phần Thông tin sản phẩm và Hướng dẫn bảo quản.
+                    Lựa chọn màu sắc, size phù hợp (tham khảo bản Hướng dẫn chọn kích cỡ), đọc các phần Thông tin sản
+                    phẩm và Hướng dẫn bảo quản.
                 </li>
             </ul>
             <h3>BƯỚC 2: THÊM SẢN PHẨM MUỐN MUA VÀO GIỎ HÀNG</h3>
@@ -331,71 +336,72 @@
             </ul>
             <h3>BƯỚC 3: TIẾN HÀNH ĐẶT HÀNG</h3>
             <ul>
-                <li>Tại trang thanh toán khách hàng vui lòng điền đẩy đủ các thông tin cho đơn hàng và mã giảm giá (nếu có).</li>
+                <li>Tại trang thanh toán khách hàng vui lòng điền đẩy đủ các thông tin cho đơn hàng và mã giảm giá (nếu
+                    có).</li>
                 <li>Nhấn hoàn tất đơn hàng để hoàn thành đặt hàng.</li>
             </ul>
         </div>
     </div>
     <footer>
         <div class="ft-container">
-          <div class="footer">
-            <div>
-              <img src="../img/logo.png" alt="">
-              <h6>ĐĂNG KÍ ĐỂ NHẬN ƯU ĐÃI</h6>
-              <div class="ip">
-                <input type="text" placeholder="Địa chỉ email của bạn" class='ft-input'>
-                <button class='ft-btn'>Gửi</button>
-              </div>
-            </div>
-            <div class="review">
-              <a href="../introduce/gioithieu.html" class='Ft-title'> Về Chúng Tôi</a>
-              <div>
-                <a href="../introduce/gioithieu.html" class='rvItem'>Giới thiệu</a>
-                <a href="../introduce/lazyvip.html" class='rvItem'>Lazy VIP club</a>
-                <a href="../introduce/hdmuahang.html" class='rvItem'>Hướng dẫn mua hàng
-                </a>
-                <a href="../introduce/gioithieu.html" class='rvItem'>Chính sách bảo hành
-                </a>
-                <a href="../introduce/chinhsachdoitra.html" class='rvItem'>Chính sách đổi trả
-                </a>
-                <a href="../introduce/chinhsachbaomat.html" class='rvItem'>Chính sách bảo mật
-                </a>
-              </div>
-            </div>
-            <div class="contact">
-              <p class='Ft-title'>Liên Hệ</p>
-              <div class='ct-item'>
-                <div style='display: flex;'>
-                  <img src="../img/Location.png" class='ft-icon'>
-                  <p class='rvItem'>100 Đông Các, Đống Đa, Hai Bà Trưng, Hà Nội
-                  </p>
+            <div class="footer">
+                <div>
+                    <img src="../img/logo.png" alt="">
+                    <h6>ĐĂNG KÍ ĐỂ NHẬN ƯU ĐÃI</h6>
+                    <div class="ip">
+                        <input type="text" placeholder="Địa chỉ email của bạn" class='ft-input'>
+                        <button class='ft-btn'>Gửi</button>
+                    </div>
                 </div>
-                <div style='display: flex;'>
-                  <img src="../img/Location.png" class='ft-icon'>
-                  <p class='rvItem'>367 Lê Văn Sĩ, Phường 12, Quận 3, Hồ Chí Minh
-                  </p>
+                <div class="review">
+                    <a href="../introduce/gioithieu.html" class='Ft-title'> Về Chúng Tôi</a>
+                    <div>
+                        <a href="../introduce/gioithieu.html" class='rvItem'>Giới thiệu</a>
+                        <a href="../introduce/lazyvip.html" class='rvItem'>Lazy VIP club</a>
+                        <a href="../introduce/hdmuahang.html" class='rvItem'>Hướng dẫn mua hàng
+                        </a>
+                        <a href="../introduce/gioithieu.html" class='rvItem'>Chính sách bảo hành
+                        </a>
+                        <a href="../introduce/chinhsachdoitra.html" class='rvItem'>Chính sách đổi trả
+                        </a>
+                        <a href="../introduce/chinhsachbaomat.html" class='rvItem'>Chính sách bảo mật
+                        </a>
+                    </div>
                 </div>
-                <div style='display: flex;'>
-                  <img src="../img/Phone.png" class='ft-icon'>
-                  <p class='rvItem'>0987016177</p>
+                <div class="contact">
+                    <p class='Ft-title'>Liên Hệ</p>
+                    <div class='ct-item'>
+                        <div style='display: flex;'>
+                            <img src="../img/Location.png" class='ft-icon'>
+                            <p class='rvItem'>100 Đông Các, Đống Đa, Hai Bà Trưng, Hà Nội
+                            </p>
+                        </div>
+                        <div style='display: flex;'>
+                            <img src="../img/Location.png" class='ft-icon'>
+                            <p class='rvItem'>367 Lê Văn Sĩ, Phường 12, Quận 3, Hồ Chí Minh
+                            </p>
+                        </div>
+                        <div style='display: flex;'>
+                            <img src="../img/Phone.png" class='ft-icon'>
+                            <p class='rvItem'>0987016177</p>
+                        </div>
+                        <div style='display: flex;'>
+                            <img src="../img/Email.png" class='ft-icon'>
+                            <p class='rvItem'>nguyentung@gmail.com
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <div style='display: flex;'>
-                  <img src="../img/Email.png" class='ft-icon'>
-                  <p class='rvItem'>nguyentung@gmail.com
-                  </p>
+                <div class="info">
+                    <p class='Ft-title'>FANPAGE</p>
+                    <div style='display: flex;'>
+                        <img src="../img/FB.png" alt="" class='fanpage'>
+                        <img src="../img/Ins.png" alt="" class='fanpage'>
+                    </div>
                 </div>
-              </div>
             </div>
-            <div class="info">
-              <p class='Ft-title'>FANPAGE</p>
-              <div style='display: flex;'>
-                <img src="../img/FB.png" alt="" class='fanpage'>
-                <img src="../img/Ins.png" alt="" class='fanpage'>
-              </div>
-            </div>
-          </div>
         </div>
-      </footer>
+    </footer>
     <!-- Code -->
 </body>
 

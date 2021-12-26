@@ -79,7 +79,7 @@
             </div>
 
           </div>
-          <a href="" class="a_menuItem">
+          <a href="./order/Newss.html" class="a_menuItem">
             <li id='menuItem'>NEWS</li>
           </a>
           <a href="" class="a_menuItem">
@@ -103,7 +103,7 @@
         </div>
         <div>
           <div class="cartMenu">
-            <a href=""><img src="./img/Cart.png" id='headerIcon'></a>
+            <a href="./order/Cart.html"><img src="./img/Cart.png" id='headerIcon'></a>
             <div class="dropdown-cart-content">
               <div class="cartContainer">
                 <p class="cartProductTitle">GIỎ HÀNG</p>
@@ -213,23 +213,35 @@
                     </p>
                   </div>
                   <div class="btnCart">
-                    <button class='viewCart'>
-                      Xem giỏ hàng
-                    </button>
+                    <a href="./order/Cart.html">
+                      <button class='viewCart'>
+                        Xem giỏ hàng
+                      </button></a>
                     <button class='buyMore'>
                       Mua Thêm
                     </button>
                   </div>
                 </div>
               </div>
-
             </div>
           </div>
         </div>
       </div>
     </header>
-    <div class="detalProduct" onclick="UnActivePopup(),UnActiveResgiterPopup()">
-      <img src="./img/Shirt.png" alt="" class='shirt'>
+    <div class="detalProduct" onclick="UnActivePopup(),UnActiveResgiterPopup()"
+      style="display: flex; justify-content: space-between;margin-bottom: 120px;">
+      <div class="productItem">
+        <div class="flip-card" style="margin-top: 120px;margin-left: 88px;">
+          <div class="flip-card-inner" id="flip-cardProduct">
+            <div class="flip-card-front">
+              <img src="./img/Shirt.png" alt="">
+            </div>
+            <div class="flip-card-back">
+              <img src="./img/Shirt.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="infoProduct">
         <p class='productTitle'>DirtyCoins Retro T-Shirt</p>
         <p class="productPrice">450000 VND</p>
@@ -255,7 +267,7 @@
         font-size: 16px; padding-top: 48px; padding-bottom: 12px;">Hướng dẫn chọn size</p>
         <img src="./img/size.png" alt="">
         <div class="addCart">
-          <a href=""><button class='Addbtn'>Thêm vào giỏ hàng</button></a>
+          <a href="./order/Payment.html"><button class='Addbtn'>Thêm vào giỏ hàng</button></a>
           <a href="./order/Payment.html"><button class='buyNowbtn'>Mua Ngay</button></a>
         </div>
       </div>
@@ -412,7 +424,7 @@
         <h3>ĐĂNG NHẬP</h3>
         <div class="form__group field">
           <input type="input" class="form__field" placeholder="Điền địa chỉ email của bạn
-          " name="name" id='name' required />
+        " name="name" id='name' required />
           <label for="name" class="form__label">Điền địa chỉ email của bạn
           </label>
         </div>
@@ -421,9 +433,11 @@
           <label for="name" class="form__label">Mật khẩu</label>
         </div>
         <p>Quên mật khẩu</p>
-        <button>
-          Đăng nhập
-        </button>
+        <a href="./order/Profile.html">
+          <button>
+            Đăng nhập
+          </button>
+        </a>
       </div>
       <div class="formRight">
         <h3>KHÁCH HÀNG MỚI</h3>
@@ -437,9 +451,11 @@
         </li>
         <li> Nhận các thông tin về sản phẩm và khuyến</li>
         <p> mãi đặc biệt</p>
-        <button>
-          Đăng kí
-        </button>
+        <a href="./order/Profile.html">
+          <button>
+            Đăng kí
+          </button>
+        </a>
       </div>
     </div>
   </div>
@@ -451,13 +467,13 @@
         </p>
         <div class="form__group field">
           <input type="input" class="form__field" placeholder="Họ và tên
-          " name="name" id='name' required />
+        " name="name" id='name' required />
           <label for="name" class="form__label">Họ và tên
           </label>
         </div>
         <div class="form__group field">
           <input type="input" class="form__field" placeholder="Email
-          " name="name" id='name' required />
+        " name="name" id='name' required />
           <label for="name" class="form__label">Email
           </label>
         </div>
@@ -467,13 +483,13 @@
         </div>
         <div class="form__group field">
           <input type="input" class="form__field" placeholder="Nhắc lại mật khẩu
-          " name="name" id='name' required />
+        " name="name" id='name' required />
           <label for="name" class="form__label">Nhắc lại mật khẩu
           </label>
         </div>
-        <button>
-          Đăng kí
-        </button>
+        <a href="./order/Profile.html"> <button>
+            Đăng kí
+          </button></a>
       </div>
     </div>
   </div>
