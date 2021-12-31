@@ -763,6 +763,7 @@ footer {
   width: 421px;
   height: 421px;
   transition: transform 0.6s;
+  transform-style: preserve-3d;
 }
 
 .flip-card:hover .flip-card-inner {
